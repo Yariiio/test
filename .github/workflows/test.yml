@@ -12,9 +12,7 @@ jobs:
             - name: say test
               run: |
                   echo "Hello test"
-    test_job_2:
-        runs-on: ubuntu-20.04
-        steps:
+
             - name: say test2
               run: |
                   echo "Hello test2"
