@@ -15,4 +15,4 @@ jobs:
 
             - name: say test2
               run: |
-                  echo "Hello test2"
+                  date
