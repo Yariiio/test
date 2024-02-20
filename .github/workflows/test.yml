@@ -16,3 +16,6 @@ jobs:
             - name: say test2
               run: |
                   date
+            - name: say test3
+              run: |
+                  ls -l
