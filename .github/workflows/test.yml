@@ -1,14 +1,14 @@
 name: Test!
 
-on: 
-  push:
-    branches:
-      - main
+on:
+    push:
+        branches:
+            - main
 
-jobs: 
-  test_job:
-    runs-on: ubuntu-20.04
-    steps:
-      - name: say test
-      run: | 
-        echo "Hello test"
+jobs:
+    test_job:
+        runs-on: ubuntu-20.04
+        steps:
+            - name: say test
+              run: |
+                  echo "Hello test"
